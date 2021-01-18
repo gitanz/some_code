@@ -1,6 +1,4 @@
 #!/bin/bash
 echo "this script is from github"
-NUMBER=$(($NUMBERONE + $NUMBERTWO))
-echo "$NUMBER"
-echo "This was added"
-echo "automatically"
+echo $(($NUM1 + $NUM2))
+echo "added from parameters"
